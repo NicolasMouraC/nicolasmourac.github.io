@@ -3,11 +3,11 @@ import { AiFillStar } from 'react-icons/ai';
 import Photo from './images/myPhoto.jpeg';
 
 const Skills = () => {
-    const skills = ["React", "Node", "JavaScript", "Python", "HTML", "CSS", "TailwindCSS", "Styled-Components", "Firebase", "MySQL", "MongoDB", "Git"]
+    const skills = ["React", "Node", "JavaScript", "Python", "HTML", "CSS", "TailwindCSS", "Styled-Components", "Firebase", "MySQL", "MongoDB", "Git", "Jest", "Mocha"]
 
     return (
-        <section>
-            <div className="text-[40px] font-medium mb-[20px] md:text-[60px]">My <span className="underline decoration-sky-400 underline-offset-2 decoration-8">Skills</span></div>
+        <section className="mt-[20px]">
+            <div className="text-[40px] font-medium mb-[20px] md:text-[60px] underline decoration-sky-400 underline-offset-2 decoration-8">Skills</div>
             <div className="grid gap-[40px] grid-cols-1 md:grid-cols-4">
                 <img 
                     src={Photo}

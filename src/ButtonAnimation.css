@@ -32,7 +32,6 @@
 }
 .button svg {
   display: block;
-  vertical-align: middle;
 }
 .button [hidden] {
   display: none;
