@@ -5,9 +5,9 @@ import Skills from './components/Skills.js';
 
 function App() {
   return (
-    <div className="box-border">
+    <div className="box-border font-['Inter']">
       <MainContainer/>
-      <section className="pt-8 pl-10 pr-20 pb-1 md:pl-24">
+      <section className="pt-8 px-16 pb-1 md:px-32">
         <Skills />
       </section>
     </div>

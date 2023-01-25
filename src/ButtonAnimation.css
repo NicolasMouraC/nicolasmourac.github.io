@@ -9,8 +9,8 @@
 }
 .button {
   -webkit-tap-highlight-color: transparent;
-  -webkit-appearance: button;
-  background-color: rgb(251, 146, 60);
+  appearance: button;
+  background-color: rgb(186, 230, 253);
   background-image: none;
   color: #fff;
   cursor: pointer;
@@ -21,7 +21,7 @@
   font-weight: 900;
   line-height: 1.5;
   margin: 20px 0 0 0;
-  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  mask-image: -webkit-radial-gradient(#000, #fff);
   padding: 0;
 }
 .button:disabled {
@@ -55,7 +55,7 @@
 }
 .button:before {
   --middle: calc(var(--height) / 2);
-  background: rgb(56 189 248);
+  background: rgb(56 189 248 );
   content: "";
   height: 100%;
   left: calc(var(--height) * -1);

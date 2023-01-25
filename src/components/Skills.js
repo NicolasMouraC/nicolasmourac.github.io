@@ -3,6 +3,8 @@ import { AiFillStar } from 'react-icons/ai';
 import Photo from './images/myPhoto.jpeg';
 
 const Skills = () => {
+    const skills = ["React", "Node", "JavaScript", "Python", "HTML", "CSS", "TailwindCSS", "Styled-Components", "Firebase", "MySQL", "MongoDB", "Git"]
+
     return (
         <section>
             <div className="text-[40px] font-medium mb-[20px] md:text-[60px]">My <span className="underline decoration-sky-400 underline-offset-2 decoration-8">Skills</span></div>
@@ -10,9 +12,16 @@ const Skills = () => {
                 <img 
                     src={Photo}
                     className="max-h-[400px]"
-                    alt="Nicolas Picture">
+                    alt="Nicolas Profile">
                 </img>
-                <article className="md: md:col-start-2 md:col-span-3">
+                <article className="md:col-start-2 md:col-span-3">
+                    <div className="flex flex-wrap">
+                        {skills.map((el, idx) => {
+                            return (
+                                <span className="bg-slate-800 text-gray-100 text w-fit h-fit p-[10px] mr-[10px] font-normal mb-[10px]" key={idx}>{el}</span>
+                            )}
+                        )}
+                    </div>
                     <h2 className="text-[26px] font-medium text-sky-400 flex md:text-[30px]">
                         Always Dreaming Big
                         <AiFillStar color="yellow"/>
