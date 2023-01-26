@@ -18,7 +18,7 @@ const Skills = () => {
                     <div className="flex flex-wrap">
                         {skills.map((el, idx) => {
                             return (
-                                <span className="bg-slate-800 text-gray-100 text w-fit h-fit p-[10px] mr-[10px] font-normal mb-[10px]" key={idx}>{el}</span>
+                                <span className="bg-slate-800 text-gray-100 text w-fit h-fit p-[10px] mr-[10px] font-normal mb-[10px] transition ease-linear delay-100 hover:scale-125" key={idx}>{el}</span>
                             )}
                         )}
                     </div>
