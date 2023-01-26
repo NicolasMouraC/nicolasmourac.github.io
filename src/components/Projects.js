@@ -9,7 +9,7 @@ const Projects = () => {
     const jammingSkills = ["React", "NPM"]
 
     return (
-        <section className="my-[50px]">
+        <section className="my-[50px]" id="Projects">
             <div className="text-[40px] font-medium mb-[20px] md:text-[60px] underline decoration-sky-400 underline-offset-2 decoration-8">Projects</div>
             <article className="grid md:grid-cols-2 md:grid-rows-1 mb-[50px]">
                 <div className="flex justify-center items-center">
@@ -20,7 +20,7 @@ const Projects = () => {
                         </img>
                 </div>
                 <div className="flex flex-col md:col-start-1 md:row-start-1">
-                    <h3 className="text-[16px] font-extralight md:text-[18px] mb-[10px]">Front End Developer</h3>
+                    <h3 className="text-[16px] font-extralight md:text-[18px] mb-[10px]">Personal Project</h3>
                     <h2 className="text-[40px] md:text-[60px] mb-[10px]">Reddit Minimal</h2>
                     <div className="flex flex-wrap mb-[10px]">
                         {redditSkills.map(el => {
@@ -42,7 +42,7 @@ const Projects = () => {
                         </img>
                 </div>
                 <div className="flex flex-col md:col-start-1 md:row-start-1">
-                    <h3 className="text-[16px] font-extralight md:text-[18px] mb-[10px]">Front End Developer</h3>
+                    <h3 className="text-[16px] font-extralight md:text-[18px] mb-[10px]">Personal Project</h3>
                     <h2 className="text-[40px] md:text-[60px] mb-[10px]">Weather App</h2>
                     <div className="flex flex-wrap mb-[10px]">
                         {weatherSkills.map(el => {
@@ -64,7 +64,7 @@ const Projects = () => {
                         </img>
                 </div>
                 <div className="flex flex-col md:col-start-1 md:row-start-1">
-                    <h3 className="text-[16px] font-extralight md:text-[18px] mb-[10px]">Front End Developer</h3>
+                    <h3 className="text-[16px] font-extralight md:text-[18px] mb-[10px]">Personal Project</h3>
                     <h2 className="text-[40px] md:text-[60px] mb-[10px]">Jamming</h2>
                     <div className="flex flex-wrap mb-[10px]">
                         {jammingSkills.map((el, idx) => {

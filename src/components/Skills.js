@@ -6,7 +6,7 @@ const Skills = () => {
     const skills = ["React", "Node", "JavaScript", "Python", "HTML", "CSS", "TailwindCSS", "Styled-Components", "Firebase", "MySQL", "MongoDB", "Git", "Jest", "Mocha"]
 
     return (
-        <section className="mt-[20px]">
+        <section className="mt-[20px]" id="Skills">
             <div className="text-[40px] font-medium mb-[20px] md:text-[60px] underline decoration-sky-400 underline-offset-2 decoration-8">Skills</div>
             <div className="grid gap-[40px] grid-cols-1 md:grid-cols-4">
                 <img 
