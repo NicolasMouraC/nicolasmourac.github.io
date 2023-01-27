@@ -1,16 +1,22 @@
 import React from "react";
 import { AiFillStar } from 'react-icons/ai';
-import Photo from './images/myPhoto.jpeg';
+import photo from './images/myPhoto.jpeg';
+import astronautBook from './images/astronaut_book.webp';
 
 const Skills = () => {
     const skills = ["React", "Node", "JavaScript", "Python", "HTML", "CSS", "TailwindCSS", "Styled-Components", "Firebase", "MySQL", "MongoDB", "Git", "Jest", "Mocha"]
 
     return (
         <section className="mt-[20px]" id="Skills">
-            <div className="text-[40px] font-medium mb-[20px] md:text-[60px] underline decoration-sky-400 underline-offset-2 decoration-8">Skills</div>
+            <div className=" flex items-center text-[40px] font-medium mb-[20px] underline decoration-sky-400 underline-offset-2 decoration-8">
+                <span className="text-[40px] md:text-[60px] flex items-center">
+                    Skills 
+                    <img src={astronautBook} alt="Image by catalyststuff on Freepik" className="h-[1em]"></img>
+                </span>
+            </div>
             <div className="grid gap-[40px] grid-cols-1 md:grid-cols-4">
                 <img 
-                    src={Photo}
+                    src={photo}
                     className="max-h-[400px]"
                     alt="Nicolas Profile">
                 </img>
@@ -22,7 +28,7 @@ const Skills = () => {
                             )}
                         )}
                     </div>
-                    <h2 className="text-[26px] font-medium text-sky-400 flex md:text-[30px]">
+                    <h2 className="text-[26px] font-medium text-sky-600 flex md:text-[30px]">
                         Always Dreaming Big
                         <AiFillStar color="yellow"/>
                     </h2>
