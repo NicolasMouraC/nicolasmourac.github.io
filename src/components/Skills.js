@@ -2,6 +2,7 @@ import React from "react";
 import { AiFillStar } from 'react-icons/ai';
 import photo from './images/myPhoto.jpeg';
 import astronautBook from './images/astronaut_book.webp';
+import astronautRocket from './images/astronaut_rocket.webp';
 import { Link } from "react-router-dom";
 
 const Skills = () => {
@@ -29,9 +30,9 @@ const Skills = () => {
                             )}
                         )}
                     </div>
-                    <h2 className="text-[26px] font-medium text-sky-500 flex md:text-[30px]">
+                    <h2 className="text-[26px] font-medium text-sky-500 flex items-center md:text-[30px]">
                         Always Dreaming Big
-                        <AiFillStar color="yellow"/>
+                        <img src={astronautRocket} className="h-[2em]"/>
                     </h2>
                     <p className="text-[20px] font-light md:text-[24px]">
                         I always had interest in tech. My first contact with programming was when i was 12 years-old.
