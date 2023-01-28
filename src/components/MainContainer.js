@@ -2,13 +2,11 @@ import React from "react";
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
 import astronautLaptop from "./images/astronaut_laptop.webp";
-import Navbar from "./Navbar.js";
 import "../Animation.css"
 
 const MainContainer = () => {
     return (
             <main className="bg-slate-800 h-screen ">
-                <Navbar />
                 <div className="pt-8 pl-10 pr-10 md:pl-24">
                     <div className="background">
                         <ul>

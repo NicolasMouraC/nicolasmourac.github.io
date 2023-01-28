@@ -2,6 +2,7 @@ import React from "react";
 import { AiFillStar } from 'react-icons/ai';
 import photo from './images/myPhoto.jpeg';
 import astronautBook from './images/astronaut_book.webp';
+import { Link } from "react-router-dom";
 
 const Skills = () => {
     const skills = ["React", "Node", "JavaScript", "Python", "HTML", "CSS", "TailwindCSS", "Styled-Components", "Firebase", "MySQL", "MongoDB", "Git", "Jest", "Mocha"]
@@ -28,7 +29,7 @@ const Skills = () => {
                             )}
                         )}
                     </div>
-                    <h2 className="text-[26px] font-medium text-sky-600 flex md:text-[30px]">
+                    <h2 className="text-[26px] font-medium text-sky-500 flex md:text-[30px]">
                         Always Dreaming Big
                         <AiFillStar color="yellow"/>
                     </h2>
@@ -38,7 +39,7 @@ const Skills = () => {
                         Lately I discovered the magic and possibilities of web development. 
                         Whenever I can, I always seek new knowledge and skills related to it.
                     </p>
-                    <button className="button">See more about my personal life</button>
+                    <Link to={"/about"} className="button">See more about my personal life</Link>
                 </article>
             </div>
         </section>
