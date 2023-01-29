@@ -1,4 +1,3 @@
-import React from "react";
 import RedditMinimalLogo from "./images/Reddit Minimal.png";
 import WeatherAppLogo from "./images/Weather App.png";
 import JammingLogo from "./images/Jamming.jpg";
@@ -14,7 +13,7 @@ const Projects = () => {
             <div className="font-medium mb-[20px] underline decoration-sky-400 underline-offset-2 decoration-8">
                 <span className="text-[40px] md:text-[60px] flex items-center">
                     Projects
-                    <img src={astronautLaptop} alt="Image by catalyststuff on Freepik" className="h-[1em]"/>
+                    <img src={astronautLaptop} alt="By catalyststuff on Freepik" className="h-[1em]"/>
                 </span>
             </div>
             <article className="grid md:grid-cols-2 md:grid-rows-1 mb-[50px]">
