@@ -1,4 +1,3 @@
-import React from "react";
 import RedditMinimalLogo from "./images/Reddit Minimal.png";
 import WeatherAppLogo from "./images/Weather App.png";
 import JammingLogo from "./images/Jamming.jpg";

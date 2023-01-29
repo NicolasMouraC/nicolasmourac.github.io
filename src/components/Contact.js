@@ -1,4 +1,3 @@
-import React from "react";
 import astronautContact from "./images/astronaut_contact.webp";
 
 const Contact = () => {

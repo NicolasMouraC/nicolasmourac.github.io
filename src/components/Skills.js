@@ -1,5 +1,3 @@
-import React from "react";
-import { AiFillStar } from 'react-icons/ai';
 import photo from './images/myPhoto.jpeg';
 import astronautBook from './images/astronaut_book.webp';
 import astronautRocket from './images/astronaut_rocket.webp';
