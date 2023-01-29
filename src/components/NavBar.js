@@ -5,7 +5,7 @@ import astronautLaptop from "./images/astronaut_laptop.webp"
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="bg-sky-900 absolute top-0 w-full">
+    <nav className="bg-sky-900 h-[10vh] min-h-[60px] w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">

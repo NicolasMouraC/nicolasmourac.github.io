@@ -16,26 +16,33 @@ import {
 const App = () => {
   return (
     <div className="box-border font-['Inter']">
+      <Nav/>
+      <div class="bg-animation">
+          <div id="stars"></div>
+          <div id="stars2"></div>
+          <div id="stars3"></div>
+          <div id="stars4"></div>
+      </div>
         <Router>
           <Routes>
             <Route exact path='/' element={
               <div>
                 <MainContainer />
-                <div className="pt-8 px-16 pb-1 md:px-32">
+                <div className="pt-8 px-16 pb-1 md:px-32 bg-white z-30 relative">
                   <Skills />
                   <Projects />
+                  <Contact />
                 </div>
-              </div>}/> 
-            <Route exact path="/about" element={
-            <div>
-              <div className="pt-8 px-16 pb-1 md:px-32">
-                <About />
               </div>
-            </div>}/>
+              }/> 
+            <Route exact path="/about" element={
+              <div className="pt-8 px-16 pb-1 md:px-32 bg-white z-30 relative">
+                <About />
+                <Contact />
+              </div>
+            }/>
           </Routes>
         </Router>
-
-        <Contact />
       <Footer />
     </div>
   );

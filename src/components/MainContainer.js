@@ -5,26 +5,13 @@ import "../Animation.css"
 
 const MainContainer = () => {
     return (
-            <main className="bg-slate-800 h-screen flex z-0">
-                <div className="mt-auto pt-8 pl-10 pr-10 md:pl-24">
-                    <div className="background z-10">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                    <section className="mt-auto">
+            <main className="bg-slate-800 h-[90vh] flex">
+                <div className="mt-auto pt-8 pl-10 md:pr-10 md:pl-24">
+                    <section className="mb-[10%] md:mt-auto md:mb-0 flex flex-col gap-[10px] md:block">
                         <div className="flex justify-center items-center">
-                            <img src={astronautLaptop} alt="Image by catalyststuff on Freepik" className="md:hidden z-20"></img>
+                            <img src={astronautLaptop} alt="Image by catalyststuff on Freepik" className="md:hidden z-20 h-[20vh]"></img>
                         </div>
-                        <header className="text-gray-100 text-[40px] font-bold flex flex-wrap md:text-[60px]">
+                        <header className="text-gray-100 text-[30px] font-bold flex flex-wrap md:text-[60px]">
                             <h1 className="mr-2 z-20">Hi,</h1>
                             <h1 className="mr-2 z-20">I'm</h1>
                             <h1 className="mr-2 z-20">Nicolas</h1>
@@ -44,7 +31,7 @@ const MainContainer = () => {
                                 <MdEmail/>
                             </a>
                         </div>
-                        <article className="text-[20px] md:text-[25px] md:flex items-center">
+                        <article className="text-[18px] md:text-[25px] md:flex items-center">
                             <p className="text-stone-100 font-elight w-[400px] z-20">
                                 I love to explore new things and possibilities 🚀
                                 I'm a lifelong learner 🎓 
@@ -56,7 +43,6 @@ const MainContainer = () => {
                     </section>
                 </div>
             </main>
-            
     )
 }
 
