@@ -16,7 +16,7 @@ import {
 const App = () => {
   return (
     <div className="box-border font-['Inter']">
-      <Nav/>
+      <div className="h-[10vh] min-h-[60px] bg-slate-900"></div>
       <div class="bg-animation">
           <div id="stars"></div>
           <div id="stars2"></div>
@@ -44,6 +44,7 @@ const App = () => {
           </Routes>
         </Router>
       <Footer />
+      <Nav/>
     </div>
   );
 }

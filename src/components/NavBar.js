@@ -1,29 +1,34 @@
 import{ useState } from "react";
 import { Transition } from "@headlessui/react";
-import astronautLaptop from "./images/astronaut_laptop.webp"
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="bg-sky-900 h-[10vh] min-h-[60px] w-full">
+    <nav className="bg-transparent h-[10vh] min-h-[60px] w-full absolute top-0">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex flex-shrink-0">
-              <img
-                className="h-8 w-8"
-                src={astronautLaptop}
-                alt="Workflow"
-              />
-              <p>Nicolas de Moura</p>
+              <p className="text-sky-600 font-bold text-[18px] md:text-[20px]">Nicolas de Moura</p>
             </div>
             <div className="hidden md:block">
-              <div className="ml-10 flex items-baseline space-x-4">
-                <a href="#" className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium z-50">Dashboard</a>
-                <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium z-50">Team</a>
-                <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium z-50">Projects</a>
-                <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium z-50">Calendar</a>
-                <a href="#" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium z-50">Reports</a>
+              <div className="ml-10 flex items-baseline space-x-4 bg-slate-900">
+                <a
+                 href="/about" 
+                 className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">
+                 About</a>
+                <a
+                 href="/#Skills" 
+                 className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                 Skills</a>
+                <a
+                 href="/#Projects" 
+                 className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                 Projects</a>
+                <a
+                 href="/#Contact" 
+                 className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                 Contact</a>
               </div>
             </div>
           </div>
@@ -31,42 +36,18 @@ function Nav() {
             <button
               onClick={() => setIsOpen(!isOpen)}
               type="button"
-              className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white z-50"
+              className="bg-gray-900 inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-800 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white z-30"
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
               <span className="sr-only">Open main menu</span>
               {!isOpen ? (
-                <svg
-                  className="block h-6 w-6"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M4 6h16M4 12h16M4 18h16"
-                  />
+                <svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"/>
                 </svg>
               ) : (
-                <svg
-                  className="block h-6 w-6"
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  aria-hidden="true"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M6 18L18 6M6 6l12 12"
-                  />
+                <svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"/>
                 </svg>
               )}
             </button>
@@ -84,42 +65,27 @@ function Nav() {
         leaveTo="opacity-0 scale-95"
       >
         {(ref) => (
-          <div className="md:hidden" id="mobile-menu">
+          <div className="md:hidden bg-slate-900" id="mobile-menu">
             <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
               <a
-                href="#"
-                className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
-              >
-                Dashboard
-              </a>
+                href="/about"
+                className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium z-40">
+                About</a>
 
               <a
-                href="#"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >
-                Team
-              </a>
+                href="/#Skills"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium z-40">
+                Skills</a>
 
               <a
-                href="#"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >
-                Projects
-              </a>
+                href="/#Projects"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium z-40">
+                Projects</a>
 
               <a
-                href="#"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >
-                Calendar
-              </a>
-
-              <a
-                href="#"
-                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-              >
-                Reports
-              </a>
+                href="#Contact"
+                className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium z-40">
+                Contact</a>
             </div>
           </div>
         )}

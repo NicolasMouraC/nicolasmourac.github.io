@@ -11,7 +11,7 @@ const Skills = () => {
             <div className=" flex items-center text-[40px] font-medium mb-[20px] underline decoration-sky-400 underline-offset-2 decoration-8">
                 <span className="text-[40px] md:text-[60px] flex items-center">
                     Skills 
-                    <img src={astronautBook} alt="Image by catalyststuff on Freepik" className="h-[1em]"></img>
+                    <img src={astronautBook} alt="By catalyststuff on Freepik" className="h-[1em]"></img>
                 </span>
             </div>
             <div className="grid gap-[40px] grid-cols-1 md:grid-cols-4">
@@ -30,7 +30,7 @@ const Skills = () => {
                     </div>
                     <h2 className="text-[26px] font-medium text-sky-500 flex items-center md:text-[30px]">
                         Always Dreaming Big
-                        <img src={astronautRocket} className="h-[2em]"/>
+                        <img src={astronautRocket} alt="By catalyststuff on Freepik" className="h-[2em]"/>
                     </h2>
                     <p className="text-[20px] font-light md:text-[24px]">
                         I always had interest in tech. My first contact with programming was when i was 12 years-old.

@@ -11,7 +11,7 @@ const About = () => {
             <div className="mb-[20px]">
                 <h2 className="text-[18px] text-sky-500 mb-[5px] md:text-[26px]">Story section</h2>
                 <div className="flex">
-                    <img src={astronautLaptop} alt="Image by catalyststuff on Freepik" className="h-[100px] md:h-[300px]"/>
+                    <img src={astronautLaptop} alt="By catalyststuff on Freepik" className="h-[100px] md:h-[300px]"/>
                     <div className="text-[16px] mb-[15px] font-light md:text-[22px]">
                         <p className="mb-[10px]">I was born in 2003, in São Paulo, Brazil. I had my first real contact with a computer at the age of 6, 
                         I was amazed with all that information, possibilities and dynamism that that evolved machine offered, 
@@ -40,7 +40,7 @@ const About = () => {
                     My first contact with programming was at the age of 10, at the time, 
                     with unity and flash for browser games. Code development has always been a hobby for me. 
                     However, since the height of the 2021 pandemic, I have started to take this hobby seriously.</p>    
-                    <img src={astronautRunning} alt="Image by catalyststuff on Freepik" className="h-[100px] md:h-[300px]"/>
+                    <img src={astronautRunning} alt="By catalyststuff on Freepik" className="h-[100px] md:h-[300px]"/>
                 </div>
             </div>
         </section>
