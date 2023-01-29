@@ -1,4 +1,3 @@
-import React from "react";
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
 
@@ -29,13 +28,13 @@ const Footer = () => {
             <div>
                 <span className="font-medium text-[18px]">Get in touch</span>
                 <div className="flex space-x-4 my-[20px]">
-                    <a href="https://github.com/NicolasMouraC" target="_blank" title="Github" className="text-sky-400 text-[30px] transition ease-linear delay-150 hover:text-stone-100 hover:scale-150" >
+                    <a href="https://github.com/NicolasMouraC" target="_blank" rel="noreferrer" title="Github" className="text-sky-400 text-[30px] transition ease-linear delay-150 hover:text-stone-100 hover:scale-150" >
                         <BsGithub/>
                     </a>
-                    <a href="https://www.linkedin.com/in/nicolas-moura-b677b8232/" target="_blank" title="Linkedin" className="text-sky-400 text-[30px] transition ease-linear delay-150 hover:text-stone-100 hover:scale-150" >
+                    <a href="https://www.linkedin.com/in/nicolas-moura-b677b8232/" target="_blank" rel="noreferrer" title="Linkedin" className="text-sky-400 text-[30px] transition ease-linear delay-150 hover:text-stone-100 hover:scale-150" >
                         <BsLinkedin/>
                     </a>
-                    <a href="mailto:nicolasoutrog@gmail.com" target="_blank" title="Email" className="text-sky-400 text-[30px] transition ease-linear delay-150 hover:text-stone-100 hover:scale-150">
+                    <a href="mailto:nicolasoutrog@gmail.com" target="_blank" rel="noreferrer" title="Email" className="text-sky-400 text-[30px] transition ease-linear delay-150 hover:text-stone-100 hover:scale-150">
                         <MdEmail/>
                     </a>
                 </div>
