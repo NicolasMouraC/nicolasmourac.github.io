@@ -7,7 +7,8 @@ const About = () => {
             <blockquote className="text-[20px] font-semibold md:text-[35px]">“If you’re willing to go through all the battling you got to go through
                  to get where you want to get, who’s got the right to stop you?”
                 – Rocky Quotes</blockquote>
-            <h1 className="text-[20px] font-medium my-[20px] md:text-[30px]">Looking for my <span className="text-sky-500">CV</span>?</h1>
+            <h1 className="text-[20px] font-medium my-[20px] md:text-[30px]">Looking for my 
+            <a href="https://drive.google.com/file/d/1-yW_HH4WVK8KPd_yQly057OoK0_R5oJ1/view?usp=sharing" target="_blank" rel="noreferrer" className="text-sky-600 font-medium hover:text-sky-300"> CV</a>?</h1>
             <div className="mb-[20px]">
                 <h2 className="text-[18px] text-sky-500 mb-[5px] md:text-[26px]">Story section</h2>
                 <div className="flex">
@@ -33,13 +34,28 @@ const About = () => {
                 </div>
                 <h2 className="text-[18px] text-sky-500 mb-[5px] md:text-[26px]">What i believe as a developer?</h2>
                 <div className="flex">
-                    <p className="text-[16px] font-light md:text-[22px]">I am a firm believer that clean code, 
-                    performance and design standards are the cornerstones of every codebase.
-                    In a work environment, communication and collaboration between individuals are essential for the good result of a project.
-                    I've always been connected to technology, it was love at first sight. 
-                    My first contact with programming was at the age of 10, at the time, 
-                    with unity and flash for browser games. Code development has always been a hobby for me. 
-                    However, since the height of the 2021 pandemic, I have started to take this hobby seriously.</p>    
+                    <div className="flex flex-col text-[16px] font-light md:text-[22px]">
+                        <p className="mb-[10px]">
+                        I am a firm believer that clean code, 
+                        performance and design standards are the cornerstones of every codebase.
+                        In a work environment, communication and collaboration between individuals are essential for the good result of a project.
+                        I've always been connected to technology, it was love at first sight. 
+                        My first contact with programming was at the age of 10, at the time, 
+                        with unity and flash for browser games. Code development has always been a hobby for me. 
+                        However, since the height of the 2021 pandemic, I have started to take this hobby seriously.</p>
+                        <p className="mb-[10px]">
+                        I am very proud of the creation of this site. It took a few days of research and attempts.
+                        </p>
+                        <p className="mb-[10px]">
+                        I would like to give some thanks to:
+                        </p>
+                        <ul>
+                            <li>- <a href="https://aaspinwall.com" target="_blank" rel="noreferrer" className="text-sky-600 font-medium hover:text-sky-300">
+                            Alejandro Aspinwall</a>, his portfolio page inspired me to create this site.</li>
+                            <li>- <a href="https://br.freepik.com/autor/catalyststuff" target="_blank" rel="noreferrer" className="text-sky-600 font-medium hover:text-sky-300">
+                            catalyststuff</a>, for the design of the astronaut figures, theme of this page.</li>
+                        </ul>
+                    </div>
                     <img src={astronautRunning} alt="By catalyststuff on Freepik" className="h-[100px] md:h-[300px]"/>
                 </div>
             </div>

@@ -1,6 +1,6 @@
 import RedditMinimalLogo from "./images/Reddit Minimal.png";
 import WeatherAppLogo from "./images/Weather App.png";
-import JammingLogo from "./images/Jamming.jpg";
+import JammingLogo from "./images/Jamming.webp";
 import astronautLaptop from "./images/astronaut_laptop2.webp";
 
 const Projects = () => {
@@ -18,7 +18,7 @@ const Projects = () => {
             </div>
             <article className="grid md:grid-cols-2 md:grid-rows-1 mb-[50px]">
                 <div className="flex justify-center items-center">
-                        <a href="https://nicolasmourac.github.io/Reddit-Clone/" className="flex justify-center items-center md:justify-start md:items-start">
+                        <a href="https://nicolasmourac.github.io/Reddit-Clone/" target="_blank" rel="noreferrer" className="flex justify-center items-center md:justify-start md:items-start">
                             <img 
                                 src={RedditMinimalLogo} 
                                 alt="Reddit Minimal Logo"
@@ -36,14 +36,18 @@ const Projects = () => {
                             )}
                         )}
                     </div>
-                    <p className="text-[18px] font-extralight md:text-[20px mb-[10px]">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                    <a href="https://nicolasmourac.github.io/Reddit-Clone/" className="button">See this project online</a>
+                    <p className="text-[18px] font-extralight md:text-[20px mb-[10px]">
+                    In this project, 
+                    I thought about developing a reddit clone, using their public Json API. 
+                    I am proud of this work because it was the first one where I planned from beginning to end. 
+                    Overall, I really liked the end result.</p>
+                    <a href="https://nicolasmourac.github.io/Reddit-Clone/" target="_blank" rel="noreferrer" className="button">See this project online</a>
                 </div>
             </article>
 
             <article className="grid md:grid-cols-2 md:grid-rows-1 mb-[50px]">
                 <div className="flex justify-center items-center">
-                        <a href="https://nicolasmourac.github.io/Weather-App/" className="flex justify-center items-center md:justify-start md:items-start">
+                        <a href="https://nicolasmourac.github.io/Weather-App/" target="_blank" rel="noreferrer" className="flex justify-center items-center md:justify-start md:items-start">
                             <img 
                                 src={WeatherAppLogo} 
                                 alt="Weather App Logo"
@@ -61,14 +65,19 @@ const Projects = () => {
                             )}
                         )}
                     </div>
-                    <p className="text-[18px] font-extralight md:text-[20px mb-[10px]">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                    <a href="https://nicolasmourac.github.io/Weather-App/" className="button">See this project online</a>
+                    <p className="text-[18px] font-extralight md:text-[20px mb-[10px]">
+                    In this project, 
+                    I thought of making something simple, 
+                    intuitive and quick to access information, 
+                    similar to a smartphone application. 
+                    The design was inspired by the google weather widget.</p>
+                    <a href="https://nicolasmourac.github.io/Weather-App/" target="_blank" rel="noreferrer" className="button">See this project online</a>
                 </div>
             </article>
 
             <article className="grid md:grid-cols-2 md:grid-rows-1 mb-[50px]">
                 <div className="flex justify-center items-center">
-                    <a href="https://nicolasmourac.github.io/Jammming/" className="flex justify-center items-center md:justify-start md:items-start">
+                    <a href="https://nicolasmourac.github.io/Jammming/" target="_blank" rel="noreferrer" className="flex justify-center items-center md:justify-start md:items-start">
                         <img 
                             src={JammingLogo} 
                             alt="Reddit Minimal Logo"
@@ -77,7 +86,7 @@ const Projects = () => {
                     </a>
                 </div>
                 <div className="flex flex-col md:col-start-1 md:row-start-1">
-                    <h3 className="text-[16px] font-extralight md:text-[18px] mb-[10px] text-center md:text-left">Personal Project</h3>
+                    <h3 className="text-[16px] font-extralight md:text-[18px] mb-[10px] text-center md:text-left">Co-Authorship Project</h3>
                     <h2 className="text-[40px] md:text-[60px] mb-[10px] text-center md:text-left">Jamming</h2>
                     <div className="flex flex-wrap mb-[10px] justify-center md:justify-start">
                         {jammingSkills.map((el, idx) => {
@@ -86,8 +95,11 @@ const Projects = () => {
                             )}
                         )}
                     </div>
-                    <p className="text-[18px] font-extralight md:text-[20px mb-[10px]">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                    <a href="https://nicolasmourac.github.io/Jammming/" className="button">See this project online</a>
+                    <p className="text-[18px] font-extralight md:text-[20px mb-[10px]">
+                    This project is not entirely mine, 
+                    it is part of the codecademy curriculum. 
+                    They give us the basis of the page style so that we can implement the application with integration with the spotify API.</p>
+                    <a href="https://nicolasmourac.github.io/Jammming/" target="_blank" rel="noreferrer" className="button">See this project online</a>
                 </div>
             </article>
         </section>

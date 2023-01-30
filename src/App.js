@@ -15,15 +15,15 @@ import {
 
 const App = () => {
   return (
-    <div className="box-border font-['Inter']">
-      <div className="h-[10vh] min-h-[60px] bg-slate-900"></div>
-      <div class="bg-animation">
-          <div id="stars"></div>
-          <div id="stars2"></div>
-          <div id="stars3"></div>
-          <div id="stars4"></div>
-      </div>
         <Router>
+        <div className="box-border font-['Inter']">
+          <div className="h-[10vh] min-h-[60px] bg-slate-900 relative"></div>
+          <div class="bg-animation">
+              <div id="stars"></div>
+              <div id="stars2"></div>
+              <div id="stars3"></div>
+              <div id="stars4"></div>
+        </div>
           <Routes>
             <Route exact path='/' element={
               <div>
@@ -42,10 +42,10 @@ const App = () => {
               </div>
             }/>
           </Routes>
-        </Router>
-      <Footer />
-      <Nav/>
-    </div>
+          <Footer />
+          <Nav/>
+        </div>
+      </Router>
   );
 }
 

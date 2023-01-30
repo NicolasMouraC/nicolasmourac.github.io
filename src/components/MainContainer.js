@@ -1,7 +1,6 @@
 import { BsGithub, BsLinkedin } from 'react-icons/bs';
 import { MdEmail } from 'react-icons/md';
 import astronautLaptop from "./images/astronaut_laptop.webp";
-import Navbar from "./Navbar.js";
 import "../Animation.css"
 
 const MainContainer = () => {
