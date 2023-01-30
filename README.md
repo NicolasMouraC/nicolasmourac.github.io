@@ -1,5 +1,6 @@
 # Portfolio Page
-Page is still being created
+Personal Portfolio page.
+[See this project online](https://nicolasmoura.online)
 
 ### 🛠️ Build with
 * [React](https://reactjs.org) - Main framework
@@ -8,7 +9,7 @@ Page is still being created
 * [NPM](https://www.npmjs.com) - Dependency manager
 
 ### 📌 Version changes
-* 0.1.0 - ...
+* 1.0.0 - Site Finished
 
 ### ✒️ Author
 * **Nicolas de Moura Carvalho** - *Developer* - [NicolasMouraC](https://github.com/NicolasMouraC)
