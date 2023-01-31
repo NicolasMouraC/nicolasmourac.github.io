@@ -32,7 +32,7 @@ const MainContainer = () => {
                             </a>
                         </div>
                         <article className="text-[18px] md:text-[25px] md:flex items-center">
-                            <p className="text-stone-100 font-elight w-[400px] z-20">
+                            <p className="text-stone-100 font-elight max-w-[400px] z-20">
                                 I love to explore new things and possibilities 🚀
                                 I'm a lifelong learner 🎓 
                                 Disciplined as a military 🎖️ 

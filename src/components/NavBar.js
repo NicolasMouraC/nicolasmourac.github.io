@@ -10,7 +10,7 @@ function Nav() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex flex-shrink-0">
-              <Link to={"/"} className="text-sky-600 font-bold text-[18px] md:text-[20px]">Nicolas de Moura</Link>
+              <Link to="/" className="text-sky-600 font-bold text-[18px] md:text-[20px]">Nicolas de Moura</Link>
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4 bg-slate-900">

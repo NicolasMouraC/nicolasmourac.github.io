@@ -19,7 +19,7 @@ const Footer = () => {
             <div>
                 <h4 className="font-medium text-[18px]">Links</h4>
                 <div className="grid grid-cols-2 grid-rows-2 font-semibold gap-x-[10px] gap-y-[5px] text-sky-400">
-                    <Link href="/About" className="text-sky-400 transition ease-linear delay-100 hover:text-stone-100 hover:scale-110 relative z-30">About</Link>
+                    <Link to="/About" className="text-sky-400 transition ease-linear delay-100 hover:text-stone-100 hover:scale-110 relative z-30">About</Link>
                     <a href="/#Skills" className="text-sky-400 transition ease-linear delay-100 hover:text-stone-100 hover:scale-110 relative z-30">Skills</a>
                     <a href="/#Projects" className="text-sky-400 transition ease-linear delay-100 hover:text-stone-100 hover:scale-110 relative z-30">Projects</a>
                     <a href="/#Contact" className="text-sky-400 transition ease-linear delay-100 hover:text-stone-100 hover:scale-110 relative z-30">Contact</a>
