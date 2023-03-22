@@ -8,7 +8,7 @@ const About = () => {
                  to get where you want to get, who’s got the right to stop you?”
                 – Rocky Quotes</blockquote>
             <h1 className="text-[20px] font-medium my-[20px] md:text-[30px]">Looking for my 
-            <a href="https://drive.google.com/file/d/1l4ZHwTFHHWFEoTZbrK-f-3DO729wiLKM/view?usp=share_link" target="_blank" rel="noreferrer" className="text-sky-600 font-medium hover:text-sky-300"> CV</a>?</h1>
+            <a href="https://drive.google.com/file/d/1TuhI4z3eceouxYtj1yl6T35rE6ymiI6V/view?usp=sharing" target="_blank" rel="noreferrer" className="text-sky-600 font-medium hover:text-sky-300"> CV</a>?</h1>
             <div className="mb-[20px]">
                 <h2 className="text-[18px] text-sky-500 mb-[5px] md:text-[26px]">Story section</h2>
                 <div className="flex">
