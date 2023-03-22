@@ -32,7 +32,7 @@ const Footer = () => {
                     <a href="https://github.com/NicolasMouraC" target="_blank" rel="noreferrer" title="Github" className="text-sky-400 text-[30px] transition ease-linear delay-150 hover:text-stone-100 hover:scale-150 z-30 relative" >
                         <BsGithub/>
                     </a>
-                    <a href="https://www.linkedin.com/in/nicolas-moura-b677b8232/" target="_blank" rel="noreferrer" title="Linkedin" className="text-sky-400 text-[30px] transition ease-linear delay-150 hover:text-stone-100 hover:scale-150 z-30 relative" >
+                    <a href="https://www.linkedin.com/in/nicolas-de-moura/" target="_blank" rel="noreferrer" title="Linkedin" className="text-sky-400 text-[30px] transition ease-linear delay-150 hover:text-stone-100 hover:scale-150 z-30 relative" >
                         <BsLinkedin/>
                     </a>
                     <a href="mailto:nicolasoutrog@gmail.com" target="_blank" rel="noreferrer" title="Email" className="text-sky-400 text-[30px] transition ease-linear delay-150 hover:text-stone-100 hover:scale-150 z-30 relative">
