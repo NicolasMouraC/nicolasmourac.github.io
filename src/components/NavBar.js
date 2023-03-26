@@ -1,9 +1,12 @@
 import{ useState } from "react";
 import { Transition } from "@headlessui/react";
 import { Link, NavLink } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function Nav() {
   const [isOpen, setIsOpen] = useState(false);
+  const { t } = useTranslation();
+
   return (
     <nav className="bg-transparent h-[10vh] min-h-[60px] w-full absolute top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -17,19 +20,19 @@ function Nav() {
                 <NavLink
                  to="/about" 
                  className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">
-                 About</NavLink>
+                 {t('About')}</NavLink>
                 <a
                  href="/#Skills" 
                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                 Skills</a>
+                 {t('Skills')}</a>
                 <a
                  href="/#Projects" 
                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                 Projects</a>
+                 {t('Projects')}</a>
                 <a
                  href="/#Contact" 
                  className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                 Contact</a>
+                 {t('Contact')}</a>
               </div>
             </div>
           </div>
@@ -41,7 +44,7 @@ function Nav() {
               aria-controls="mobile-menu"
               aria-expanded="false"
             >
-              <span className="sr-only">Open main menu</span>
+              <span className="sr-only">{t('Open main menu')}</span>
               {!isOpen ? (
                 <svg className="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"/>
@@ -71,22 +74,22 @@ function Nav() {
               <NavLink
                 to="/about"
                 className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium z-40">
-                About</NavLink>
+                {t('About')}</NavLink>
 
               <a
                 href="/#Skills"
                 className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium z-40">
-                Skills</a>
+                {t('Skills')}</a>
 
               <a
                 href="/#Projects"
                 className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium z-40">
-                Projects</a>
+                {t('Projects')}</a>
 
               <a
                 href="#Contact"
                 className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium z-40">
-                Contact</a>
+                {t('Contact')}</a>
             </div>
           </div>
         )}
