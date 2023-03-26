@@ -5,7 +5,7 @@ const About = () => {
     return (
         <section>
             <blockquote className="text-[20px] font-semibold md:text-[35px]">“If you’re willing to go through all the battling you got to go through
-                 to get where you want to get, who’s got the right to stop you?”
+                to get where you want to get, who’s got the right to stop you?”
                 – Rocky Quotes</blockquote>
             <h1 className="text-[20px] font-medium my-[20px] md:text-[30px]">Looking for my 
             <a href="https://drive.google.com/file/d/1TuhI4z3eceouxYtj1yl6T35rE6ymiI6V/view?usp=sharing" target="_blank" rel="noreferrer" className="text-sky-600 font-medium hover:text-sky-300"> CV</a>?</h1>
