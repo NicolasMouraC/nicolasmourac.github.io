@@ -9,6 +9,7 @@ Personal Portfolio page.
 * [NPM](https://www.npmjs.com) - Dependency manager
 
 ### 📌 Version changes
+* 1.1.0 - Site now has support for english and portuguese language.
 * 1.0.0 - Site Finished
 
 ### ✒️ Author
