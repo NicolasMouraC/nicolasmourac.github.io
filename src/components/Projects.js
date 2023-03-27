@@ -2,8 +2,10 @@ import RedditMinimalLogo from "./images/Reddit Minimal.png";
 import WeatherAppLogo from "./images/Weather App.png";
 import JammingLogo from "./images/Jamming.webp";
 import astronautLaptop from "./images/astronaut_laptop2.webp";
+import { useTranslation } from "react-i18next";
 
 const Projects = () => {
+    const { t } = useTranslation();
     const redditSkills = ["React", "Node", "Redux", "Tailwind", "Jest"];
     const weatherSkills = ["React", "API", "Redux", "Styled-Components","Jest"];
     const jammingSkills = ["React", "NPM"]
@@ -12,7 +14,7 @@ const Projects = () => {
         <section className="my-[50px]" id="Projects">
             <div className="font-medium mb-[20px] underline decoration-sky-400 underline-offset-2 decoration-8">
                 <span className="text-[40px] md:text-[60px] flex items-center">
-                    Projects
+                    {t('Projects')}
                     <img src={astronautLaptop} alt="By catalyststuff on Freepik" className="h-[1em]"/>
                 </span>
             </div>
@@ -27,7 +29,7 @@ const Projects = () => {
                         </a>
                 </div>
                 <div className="flex flex-col md:col-start-1 md:row-start-1">
-                    <h3 className="text-[16px] font-extralight md:text-[18px] mb-[10px] text-center md:text-left">Personal Project</h3>
+                    <h3 className="text-[16px] font-extralight md:text-[18px] mb-[10px] text-center md:text-left">{t('Personal Project')}</h3>
                     <h2 className="text-[40px] md:text-[60px] mb-[10px] text-center md:text-left">Reddit Minimal</h2>
                     <div className="flex flex-wrap mb-[10px] justify-center md:justify-start">
                         {redditSkills.map(el => {
@@ -37,11 +39,11 @@ const Projects = () => {
                         )}
                     </div>
                     <p className="text-[18px] font-extralight md:text-[20px mb-[10px]">
-                    In this project, 
-                    I thought about developing a reddit clone, using their public Json API. 
-                    I am proud of this work because it was the first one where I planned from beginning to end. 
-                    Overall, I really liked the end result.</p>
-                    <a href="https://nicolasmourac.github.io/Reddit-Clone/" target="_blank" rel="noreferrer" className="button">See this project online</a>
+                    {t('In this project,')} 
+                    {t('I thought about developing a reddit clone, using their public Json API.')} 
+                    {t('I am proud of this work because it was the first one where I planned from beginning to end.')} 
+                    {t('Overall, I really liked the end result.')}</p>
+                    <a href="https://nicolasmourac.github.io/Reddit-Clone/" target="_blank" rel="noreferrer" className="button">{t('See this project online')}</a>
                 </div>
             </article>
 
@@ -56,7 +58,7 @@ const Projects = () => {
                         </a>
                 </div>
                 <div className="flex flex-col md:col-start-1 md:row-start-1">
-                    <h3 className="text-[16px] font-extralight md:text-[18px] mb-[10px] text-center md:text-left">Personal Project</h3>
+                    <h3 className="text-[16px] font-extralight md:text-[18px] mb-[10px] text-center md:text-left">{t('Personal Project')}</h3>
                     <h2 className="text-[40px] md:text-[60px] mb-[10px] text-center md:text-left">Weather App</h2>
                     <div className="flex flex-wrap mb-[10px] justify-center md:justify-start">
                         {weatherSkills.map(el => {
@@ -66,12 +68,12 @@ const Projects = () => {
                         )}
                     </div>
                     <p className="text-[18px] font-extralight md:text-[20px mb-[10px]">
-                    In this project, 
-                    I thought of making something simple, 
-                    intuitive and quick to access information, 
-                    similar to a smartphone application. 
-                    The design was inspired by the google weather widget.</p>
-                    <a href="https://nicolasmourac.github.io/Weather-App/" target="_blank" rel="noreferrer" className="button">See this project online</a>
+                    {t('In this project,')} 
+                    {t('I thought of making something simple,')} 
+                    {t('intuitive and quick to access weather information,')} 
+                    {t('similar to a mobile application.')} 
+                    {t('The design was inspired by the google weather widget.')}</p>
+                    <a href="https://nicolasmourac.github.io/Weather-App/" target="_blank" rel="noreferrer" className="button">{t('See this project online')}</a>
                 </div>
             </article>
 
@@ -86,7 +88,7 @@ const Projects = () => {
                     </a>
                 </div>
                 <div className="flex flex-col md:col-start-1 md:row-start-1">
-                    <h3 className="text-[16px] font-extralight md:text-[18px] mb-[10px] text-center md:text-left">Co-Authorship Project</h3>
+                    <h3 className="text-[16px] font-extralight md:text-[18px] mb-[10px] text-center md:text-left">{t('Co-Authorship Project')}</h3>
                     <h2 className="text-[40px] md:text-[60px] mb-[10px] text-center md:text-left">Jamming</h2>
                     <div className="flex flex-wrap mb-[10px] justify-center md:justify-start">
                         {jammingSkills.map((el, idx) => {
@@ -96,10 +98,10 @@ const Projects = () => {
                         )}
                     </div>
                     <p className="text-[18px] font-extralight md:text-[20px mb-[10px]">
-                    This project is not entirely mine, 
-                    it is part of the codecademy curriculum. 
-                    They give us the basis of the page style so that we can implement the application with integration with the spotify API.</p>
-                    <a href="https://nicolasmourac.github.io/Jammming/" target="_blank" rel="noreferrer" className="button">See this project online</a>
+                    {t('This project is not entirely mine,')} 
+                    {t('it is part of the codecademy curriculum.')} 
+                    {t('They give us the basis of the page style so that we can implement the application with integration with the spotify API.')}</p>
+                    <a href="https://nicolasmourac.github.io/Jammming/" target="_blank" rel="noreferrer" className="button">{t('See this project online')}</a>
                 </div>
             </article>
         </section>

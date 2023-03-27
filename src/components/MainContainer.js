@@ -19,9 +19,9 @@ const MainContainer = () => {
                         <h1 className="mr-2 z-20">{t("i am")}</h1>
                         <h1 className="mr-2 z-20">Nicolas</h1>
                         <h1 className="mr-2 z-20">|</h1>
-                        <h1 className="mr-2 underline decoration-sky-400 underline-offset-2 decoration-8 z-20">Front</h1>
-                        <h1 className="mr-2 underline decoration-sky-400 underline-offset-2 decoration-8 z-20">End</h1>
-                        <h1 className="mr-2 underline decoration-sky-400 underline-offset-2 decoration-8 z-20">Developer</h1>
+                        <h1 className="mr-2 underline decoration-sky-400 underline-offset-2 decoration-8 z-20">{t('Front')}</h1>
+                        <h1 className="mr-2 underline decoration-sky-400 underline-offset-2 decoration-8 z-20">{t('End')}</h1>
+                        <h1 className="mr-2 underline decoration-sky-400 underline-offset-2 decoration-8 z-20">{t('Developer')}</h1>
                     </header>
                     <div className="flex space-x-4">
                         <a href="https://github.com/NicolasMouraC" target="_blank" title="Github" rel="noreferrer" className="text-sky-400 text-[30px] transition ease-linear delay-150 hover:text-stone-100 hover:scale-150 z-20" >
@@ -36,10 +36,10 @@ const MainContainer = () => {
                     </div>
                     <article className="text-[18px] md:text-[25px] md:flex items-center">
                         <p className="text-stone-100 font-elight max-w-[400px] z-20">
-                            I love to explore new things and possibilities 🚀
-                            I am a lifelong learner 🎓 
-                            Disciplined as a military 🎖️ 
-                            And maybe I have a thing for weightlifting 💪
+                            {t('I love to explore new things and possibilities 🚀')}
+                            {t('I am a lifelong learner 🎓')} 
+                            {t('Disciplined as a military 🎖️')} 
+                            {t('And maybe I have a thing for weightlifting 💪')}
                         </p>
                         <img src={astronautLaptop} alt="By catalyststuff on Freepik" className="hidden md:block z-20"></img>
                     </article>
