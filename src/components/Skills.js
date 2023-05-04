@@ -1,6 +1,6 @@
-import photo from './images/myPhoto.jpeg';
-import astronautBook from './images/astronaut_book.webp';
-import astronautRocket from './images/astronaut_rocket.webp';
+import photo from '../images/myPhoto.jpeg';
+import astronautBook from '../images/astronaut_book.webp';
+import astronautRocket from '../images/astronaut_rocket.webp';
 import { Link } from "react-router-dom";
 import { useTranslation } from "react-i18next";
 

@@ -24,6 +24,12 @@
         "See more about my personal life": "Veja mais sobre minha vida pessoal",
 
         "Personal Project": "Projeto Pessoal",
+        "Front-End Project": "Projeto Front-End ",
+        "Full Stack Project": "Projeto Full Stack ",
+        "Project under development,": "Projeto em desenvolvimento, ",
+        "it will be a fullstack application inspired by some famous social networks,": "Será um aplicativo full stack que se inspira em algumas das redes sociais mais usadas no mundo, ",
+        "I intend it to have a chat and posts section for users to interact.": "pretendo que ela tenha um chat e seção de posts para os usuários interagirem.. ",
+        "An integration with an AI like ChatGPT is a personal goal.": "Uma integração com uma IA como o ChatGPT é um objetivo pessoal. ",
         "In this project,": "Nesse projeto, ",
         "I thought about developing a reddit clone, using their public Json API.": "Eu pensei em desenvolver um clone do Reddit, usando a API JSON oficial. ",
         "I am proud of this work because it was the first one where I planned from beginning to end.": "Eu fiquei orgulhoso desse trabalho, porque ele o primeiro em que eu mesmo planejei do ínicio ao fim. ",

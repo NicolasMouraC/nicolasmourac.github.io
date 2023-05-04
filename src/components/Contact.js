@@ -1,5 +1,5 @@
 import { useTranslation } from "react-i18next";
-import astronautContact from "./images/astronaut_contact.webp";
+import astronautContact from "../images/astronaut_contact.webp";
 
 const Contact = () => {
     const { t } = useTranslation();

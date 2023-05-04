@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
-import astronautLaptop from "./images/astronaut_laptop3.webp";
-import astronautRunning from "./images/astronaut_running.webp";
+import astronautLaptop from "../images/astronaut_laptop3.webp";
+import astronautRunning from "../images/astronaut_running.webp";
 
 const About = () => {
     const { t } = useTranslation();

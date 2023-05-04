@@ -2,11 +2,29 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700;800&display=swap");
-
 @font-face {
-    font-family: 'Inter';
-}
+    font-family: "Montserrat";
+    src: local(Montserrat), url("./fonts/Montserrat/Montserrat-Light.ttf");
+    font-weight: 400;
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    src: local(Montserrat), url("./fonts/Montserrat/Montserrat-Regular.ttf");
+    font-weight: 500;
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    src: local(Montserrat), url("./fonts/Montserrat/Montserrat-Medium.ttf");
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: "Montserrat";
+    src: local(Montserrat), url("./fonts/Montserrat/Montserrat-Bold.ttf");
+    font-weight: 5700;
+  }
 
 /* Scrollbar css */
 ::-webkit-scrollbar {

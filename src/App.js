@@ -16,7 +16,7 @@ import {
 const App = () => {
   return (
     <Router>
-      <div className="box-border font-['Inter']">
+      <div className="box-border font-['Montserrat']">
         <div className="h-[10vh] min-h-[60px] bg-slate-900 relative"></div>
         <div class="bg-animation">
             <div id="stars"></div>
